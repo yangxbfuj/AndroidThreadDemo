@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yxb.androidthreaddemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HandlerMessageLooperActivity" />
+        <activity android:name=".ForkNewThreadsActivity" />
+        <activity android:name=".WaitSleepJoinYieldActivity" />
+        <activity android:name=".CallableFutureFutureTaskActivity" />
+        <activity android:name=".CopyOnWriteActivity" />
+        <activity android:name=".SynchronizedLockActivity" />
+        <activity android:name=".ReentrantLockAndCondition"></activity>
+    </application>
+
+</manifest>
